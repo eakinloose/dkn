@@ -1,4 +1,7 @@
 import 'package:denukan_business_solutions/ServiceClass.dart';
+import 'package:denukan_business_solutions/screens/IntroScreens.dart';
+import 'package:denukan_business_solutions/screens/authScreen.dart';
+import 'package:denukan_business_solutions/widgets/loginForm.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -55,7 +58,9 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Welcome(),
+      // body: Welcome(),
+      // body: IntroSrcreen(),
+      body: AuthScreen(),
     );
   }
 }

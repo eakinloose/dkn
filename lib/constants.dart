@@ -25,3 +25,8 @@ Color kColorSmoke2 = const Color(0xff878685);
 Color kColorWhite = Colors.white;
 Color kColorShade = const Color(0xfff5f5f5);
 const kColorBlack = Color(0xFF1D1D35);
+
+// recently added
+const space = SizedBox(
+  height: 15.00,
+);
